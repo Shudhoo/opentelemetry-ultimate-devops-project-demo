@@ -29,7 +29,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: recommendationservice
-          image: 'shudhodhan/recommendation-micro-service:v2'
+          image: shudhodhan/recommendation-micro-service:16317890093
           imagePullPolicy: IfNotPresent
           ports:
             
