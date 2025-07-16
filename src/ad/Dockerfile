@@ -1,4 +1,4 @@
-# This is Dockerfile for ad-micro-service which is coded in JAVAA
+# This is Dockerfile for ad-micro-service which is coded in JAVA
 ### Stage-1 ###
 FROM eclipse-temurin:21-jdk AS builder
 
