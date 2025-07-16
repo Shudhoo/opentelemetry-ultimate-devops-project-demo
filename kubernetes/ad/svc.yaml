@@ -1,5 +1,4 @@
----
-# Source: opentelemetry-demo/templates/component.yaml
+# service file for the ad-micro-service
 apiVersion: v1
 kind: Service
 metadata:
@@ -19,3 +18,4 @@ spec:
       targetPort: 8080
   selector:
     opentelemetry.io/name: opentelemetry-demo-adservice
+
